@@ -1,0 +1,84 @@
+Effective Date: October 2021
+
+THE SOFTWARE APPLICATIONS MADE AVAILABLE TO YOU BY PAYCHEX, INC. AND ITS AFFILIATES ("PAYCHEX") THROUGH ITS WEBSITE(S) AND/OR MOBILE APPLICATIONS (“SITE”) ARE SUBJECT TO THE FOLLOWING TERMS OF USE ("TERMS"), AND THE PAYCHEX PRIVACY STATEMENT (ACCESSIBLE ON PAYCHEX.COM). BY ACCESSING OR USING THE SITE, SOFTWARE APPLICATIONS, AND/OR THE SERVICE(S) (COLLECTIVELY REFERRED TO AS “SOFTWARE”), YOU AGREE TO BE BOUND BY THESE TERMS. IF YOU AGREE TO THESE TERMS ON BEHALF OF A COMPANY OR OTHER LEGAL ENTITY (“COMPANY”), YOU REPRESENT AND WARRANT THAT YOU HAVE THE AUTHORITY TO BIND COMPANY TO THESE TERMS AND, IN SUCH EVENT, "YOU" OR "YOUR" WILL REFER AND APPLY TO YOU AS AN INDIVIDUAL AND TO COMPANY. IF YOU HAVE ENTERED INTO ANOTHER AGREEMENT WITH PAYCHEX, THEN THESE TERMS SHALL CONTROL WHERE ANY CONFLICT EXISTS.
+
+Software Limitations. The Software may contain software obtained from third party licensors ("Third-Party Software"). You may not:
+
+    a.    use the Software or Third-Party Software for software development or application development purposes;
+
+    b.    distribute Software or Third-Party Software;
+
+    c.    attempt to disassemble Software or Third-Party Software code; or
+
+    d.    attempt in any manner to reconstruct, discover, reuse or modify any source code or underlying algorithms of Software   or Third-Party Software, except to the limited extent as is permitted by law notwithstanding contractual prohibition.
+
+Intellectual Property. The information available through the Software is the property of Paychex, or its licensors, and is protected by copyright, trademark, international treaties and other intellectual property laws. Paychex, or its licensors, owns all rights, title, and interest, including, but not limited to, copyright, patent, trade secret, and all other intellectual property rights, in the Software. If you are ever held or deemed to be the owner of any copyright rights in the Software or any changes, modifications, or corrections to the Software, you hereby irrevocably assign to Paychex all such rights, title, and interest. You are granted a limited, non-transferable, non-exclusive right to access and use the Software.
+
+You may not modify, copy, distribute, transmit, display, publish, sell licenses, create derivative works, or otherwise use any information available through the Software for commercial purposes. You acknowledge that the Software contains valuable trade secrets and confidential information owned by Paychex or third parties. You agree that you will not, directly or indirectly: (i) sell, lease, assign, sublicense, or otherwise transfer; (ii) duplicate, reproduce, or copy; (iii) disclose, divulge, or otherwise make available to any third party; (iv) use, except as authorized by Paychex in these Terms or another agreement; or (v) decompile, disassemble, or otherwise analyze for reverse engineering purposes the Software. You agree to notify Paychex immediately of any unauthorized use or disclosure of any trade secrets or confidential information and to cooperate in remedying such unauthorized use or disclosure.
+
+The Paychex name, the terms found on the Trademarks and Disclaimers page (currently located at www. Paychex.com/corporate/trademarks), the Paychex logo, and all related names, logos, product and service names, designs, and slogans are trademarks of Paychex or its affiliates or licensors. The trademarks, service marks, trade names, trade dress, logos, designs, and/or any sounds associated with the Software are owned by Paychex. You must not use such marks without the prior written permission of Paychex. All other names, logos, product and service names, designs, and slogans in the Services or Software are the trademarks of their respective owners. Paychex does not grant any license or other authorization to any user of such copyrightable material, or any other intellectual property, by including them in the Software.
+
+Liability of Paychex' Licensors and Suppliers. You acknowledge and agree that, to the maximum extent permitted by law, Paychex and its licensors or suppliers will not be liable for any damages, claims, losses, costs, or any other liabilities arising out of or in connection with the Software or your use of or inability to use the Software, whether in contract, tort (including negligence), product liability, or any other legal theory.
+
+Security, Privacy, and Confidentiality. Any communication to Paychex through the Software will be treated by Paychex as a communication authorized by you. It is solely your responsibility to maintain the security and confidentiality of your account credentials and the information and services accessible through your account. You are not permitted to share or sell your account credentials to any third-party, unless authorized. If you suspect fraudulent or abusive activity relating to your account, or if your credentials have been lost, stolen or compromised in any way, you agree to immediately i) change your potentially compromised credentials, ii) notify Company, and iii) notify Paychex, if you are using the Software on behalf of a Company. 
+
+You agree that Paychex may access your account to assist in configuration, provide ongoing support, and perform administrative functions. You acknowledge and agree that you are responsible for: (i) the accuracy, integrity, and legality of any information you submit through the Software; and (ii) any action taken with respect to your account.  You acknowledge and agree that you, either directly or through Company, have consented to Paychex’ collection and use of your information, and that Company is responsible for your data privacy in relation to your information.
+
+You understand and acknowledge that, in order to provide services to Company and/or in order to provide you with access to the Software, Paychex has contact information which may include but not be limited to full name, street address, email address and phone number, including mobile phone number (“Contact Information”). You acknowledge that Paychex and/or Company may use Contact Information to contact you regarding the services or Software, regardless of the individual user preferences that you may set for certain notifications or communications, and that you consent to such use. If you wish to withdraw your consent to use Contact Information, you must either remove the Contact Information from the Software or contact Company directly to remove it. 
+
+You understand and acknowledge that third parties may perform and/or be involved in the performance of some of the services you access or receive through the Software and/or from Paychex. See the Paychex Privacy Statement for more information on how Paychex transmits, uses, shares and protects business, financial and personal information.
+
+Prohibited Uses. 
+You may use the Software as authorized by Company and/or Paychex and only for lawful purposes and in accordance with these Terms. You agree not to use the Software:
+
+•           In any way that violates any applicable federal, state, local, or international law or regulation (including, without limitation, any laws regarding the export of data or software to and from the US or other countries).
+
+•           For the purpose of exploiting, harming, or attempting to exploit or harm minors in any way by exposing them to inappropriate content, asking for personally identifiable information, or otherwise.
+
+•           To send, knowingly receive, upload, download, use, or re-use any material that does not comply with these Terms.
+
+•           To transmit, or procure the sending of, any advertising or promotional material, without our prior written consent, including any “junk mail,” “chain letter,” “spam,” or any other similar solicitation.
+
+•           To impersonate or attempt to impersonate Paychex, a Paychex employee, another user, or any other person or entity (including, without limitation, by using email addresses or account log-in information associated with any of the foregoing).
+
+•           To engage in any other conduct that restricts or inhibits anyone’s use or enjoyment of the Software, or which, as determined by us, may harm the Paychex or users of the Software, or expose them to liability.
+
+Additionally, you agree not to:
+
+•           Use the Software in any manner that could disable, overburden, damage, or impair the Site or interfere with any other party’s use of the Software, including their ability to engage in real time activities through the Software.
+
+•           Use any robot, spider, or other automatic device, process, or means to access the Software for any purpose, including monitoring or copying any of the material on the Software.
+
+•           Use the Software for any other purpose not expressly authorized in these Terms or the Company’s Paychex Services Agreement, if applicable, without our prior written consent.
+
+•           Use any device, software, or routine that interferes with the proper working of the Software.
+
+•           Introduce any malicious software which may include viruses, Trojan horses, worms, logic bombs, or other material that is malicious or technologically harmful.
+
+•           Attempt to gain unauthorized access to, interfere with, damage, or disrupt any part of the Software, the server on which the Software is stored, or any server, computer, or database connected to the Software.
+
+•           Attack the Software via a denial-of-service attack or a distributed denial-of-service attack.
+
+•           Otherwise attempt to interfere with the proper working of the Software.‌                                                                                                                                       
+
+Content and Materials. You acknowledge that Paychex is not rendering legal, tax, accounting, or investment advice in connection with the services and/or your use of the Software. Paychex is not responsible for your compliance with, nor will Paychex provide legal or other financial advice, with respect to applicable federal, state, or local and international laws, regulations, or ordinances (collectively “Laws”). You and Company are responsible for your compliance with all applicable Laws.
+
+Electronic Communications. When you use the Software or send emails to Paychex, you are communicating with Paychex electronically. You consent to receive communications from Paychex electronically, and Paychex may communicate with you by emails or by posting notices on or through the Software. You agree that all agreements, notices, disclosures, and other communications that Paychex provides to you electronically satisfy any legal requirement that such communications be in writing.  
+
+Potential Disruption of Service. Access to the Software may from time to time be unavailable, delayed, limited, or slowed due to, among other things, hardware and/or software failures, errors, or bugs; acts of God, war, or terrorism; or acts of any governmental body. Paychex shall not be liable for any delay or failure to perform resulting from these or other causes outside of its control.
+
+Amendments. Paychex may modify any provision of these Terms by updating the link to these Terms on the login page. Your continued use of the Software after the effective date of the revised Terms constitutes acceptance of the Terms.
+
+Termination. Paychex reserves the right to limit, suspend, or terminate your access to the Software, without notice, at any time for any reason. Paychex reserves the right to change or discontinue, temporarily or permanently, the Software, and those products and services available on the Software, including but not limited to revising and/or deleting features or other information without prior notice. You agree that Paychex will not be liable to you for any damages resulting from its modification, suspension, discontinuance, or deletion of the Software, any elements comprising the Software, or any products or services available on or through the Software. We reserve the right, at our sole discretion, immediately and without notice to you, to suspend or terminate your account and/or your ability to access the Software for any reason.
+
+Disclaimer of Warranties.  
+
+YOU EXPRESSLY UNDERSTAND AND AGREE THAT TO THE EXTENT PERMITTED BY APPLICABLE LAW, YOUR USE OF THIS SOFTWARE (INCLUDING ALL INFORMATION AND MATERIALS CONTAINED ON THE SOFTWARE) IS AT YOUR SOLE RISK, AND IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITH ALL FAULTS. PAYCHEX EXPRESSLY DISCLAIMS ALL WARRANTIES, REPRESENTATIONS, AND CONDITIONS OF ANY KIND WITH REGARD TO THE SOFTWARE, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR ANY PARTICULAR PURPOSE, TITLE, NONINFRINGEMENT OF THIRD PARTY RIGHTS, FREEDOM FROM VIRUSES OR OTHER HARMFUL CODE, OR ARISING FROM A COURSE OF DEALING, LOSS OF DATA OR LOSS PROFITS, USUAGE OR TRADE PRACTICE. PAYCHEX WILL NOT BE LIABLE FOR ANY DELAY, DIFFICULTY IN USE, INACCURACY OF INFORMATION, COMPUTER VIRUSES, MALICIOUS CODE, OR OTHER DEFECTS IN THE SOFTWARE, OR FOR THE INCOMPATIBILITY BETWEEN THE SOFTWARE AND FILES AND THE USER’S BROWSER OR OTHER SITE ACCESSING PROGRAM.   PAYCHEX MAKES NO WARRANTY OF ANY KIND THAT THE SOFTWARE, OR ANY SERVICES OR RESULTS OF THE USE THEREOF, WILL MEET YOUR OR ANY OTHER PERSON’S REQUIREMENTS, OPERATE WITHOUT INTERRUPTION, ACHIEVE ANY INTENDED RESULT, BE COMPATIBLE OR WORK WITH ANY OF YOUR OR ANY THIRD PARTY’S SOFTWARE, SYSTEM OR OTHER SERVICES, OR BE SECURE, ACCURATE, COMPLETE, FREE OF HARMFUL CODE, OR ERROR-FREE, OR THAT ANY ERRORS OR DEFECTS CAN OR WILL BE CORRECTED.
+
+Limitation of Liability. You acknowledge and agree that PAYCHEX IS NOT LIABLE FOR ANY CONSEQUENCES, LOSSES, CLAIMS, EXPENSES, DEMANDS, DAMAGES, OR LIABILITY RESULTING FROM YOUR BREACH OR FAILURE TO COMPLY WITH THESE TERMS, INCLUDING ANY UNAUTHORIZED ACCESS TO, OR USE OF, THE SOFTWARE. YOU FURTHER UNDERSTAND AND AGREE THAT PAYCHEX AND ITS LICENSORS SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, EXEMPLARY, PUNITIVE DAMAGES, OR FOR LOST PROFITS OR LOST DATA OR COMPUTER FAILURE OR MALFUNCTION ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE OR ANY RELATED COMPONENT OR SERVICES OR ANY FAILURE OR DELAY IN DELIVERING SERVICES, EVEN IF PAYCHEX HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+Indemnification. You agree to indemnify, defend, and hold Paychex and its affiliates, respective officers, directors, and employees harmless from any and all claims, costs, attorneys' fees (including in-house counsel fees), and expenses resulting from or arising in connection with : (i) your misuse of, or inability to use, the Software; (ii) your violation of any of the Terms; (iii) your violation of any rights of another party, including any other user of the Software; or (iv) your violation of any applicable Laws.  
+
+Governing Law. These Terms are governed by the Governing Law of Company’s Paychex Services Agreement with Paychex. In the event Company is accessing or using the Software in a test environment and has not yet entered into a Services Agreement, these Terms and all aspects of the relationship between Paychex and Company shall be governed by the laws of New York, without regard to, or application of, its conflict of laws, rules and principles.
+
+Assignment. The Agreement may not be assigned by you to any third parties without the prior written consent of Paychex. Any assignment made without such consent will be null and void.

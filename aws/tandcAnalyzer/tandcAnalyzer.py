@@ -22,7 +22,7 @@ def openai_prompt(prompt, tok, used_for, bo, use):
 #             response = openai.ChatCompletion.create(
 #                 model="gpt-3.5-turbo",
             response= openai.ChatCompletion.create(
-                  model="gpt-3.5-turbo-16k",
+                  model="gpt-3.5-turbo-16k-0613",
                 #     messages=[
                 #         {"role": "user", "content": f"Generate an Image Prompt by following these Instructions: {prompt_final}"},
                 #     ],
@@ -164,14 +164,17 @@ def lambda_handler(event, context):
 
     print("---------------")
     print(TandC)
-    prompt=f"""Prompt Instructions: Analyze a given set of Terms and Conditions (T&C) text and generate two distinct responses. In the first response, highlight points that can be potentially harmful or disadvantageous to the user when agreeing to the T&C. In the second response, identify and emphasize points that can be advantageous or beneficial to the user within the same T&C text.
+    prompt=f"""Prompt Instructions: Analyze a given set of Terms and Conditions (T&C) text and generate two distinct responses each response should be of 3 points. In the first response, highlight points that can be potentially harmful or disadvantageous to the user when agreeing to the T&C. In the second response, identify and emphasize points that can be advantageous or beneficial to the user within the same T&C text.
     \n\nInput Field 1: {TandC} // Required
 
     This prompt will guide users to input the T&C text, and the model will generate two responses—one focusing on harmful points and the other on beneficial points within the provided text. Users can easily understand the implications of the T&C by reading these two distinct perspectives."""
     res=openai_handler(prompt, 1000, "TandC", 1)
+    negRes="1."+ res[0].split("\n\n1.")[1].split("Response 2:")[0]
+
+    posRes="1."+ res[0].split("\n\n1.")[2]
 
     res_fin={}
-    res_fin["response"]=res
+    res_fin["response"]={"Negrative Response":negRes,"Positive Response": posRes}
     res_fin['headers']= {
             'Content-Type': 'application/json',}
     print(f"Result to Send:{res_fin}")

@@ -53,12 +53,9 @@
 //     });
 //   });
 
-  
-const requestConfig = {
-    headers: {
-      "Content-Type": "application/json"
-    },
-};
+var myHeaders = new Headers();
+myHeaders.append("Accept", "application/json");
+// myHeaders.append("Access-Control-Allow-Origin", "*");
 
 const currentDate = new Date().toISOString().slice(0, 10);
 console.log(currentDate); // output: 2023-04-06
@@ -77,24 +74,29 @@ document.addEventListener('DOMContentLoaded', function() {
             const highlightedData = document.querySelector("#highlighted-data");
             const summaryData = document.querySelector('#summary').value;
 
-            fetch("https://uxb6df64xcgfe7d754aw5k5lyu0giion.lambda-url.us-east-1.on.aws/", {
-                method: 'POST',
-                headers: requestConfig.headers,
-                body: JSON.stringify(summaryData)
-            })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                return response.json(); // Assuming the response is in JSON format
-            })
-            .then(data => {
-                highlightedData.innerHTML = data;
-                console.log("Data received:", data);
-            })
-            .catch(error => {
-                console.error('Error:', error);
+            var raw = JSON.stringify({
+            "page_data": summaryData
             });
+
+            var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: raw,
+            redirect: 'follow',
+            //  mode: 'no-cors'
+            };
+
+            fetch("https://uxb6df64xcgfe7d754aw5k5lyu0giion.lambda-url.us-east-1.on.aws", requestOptions)
+            .then((response) => {
+                return response.json();
+            })
+            .then((result) => {
+                result = JSON.parse(result.body);
+                highlightedData.innerHTML = result["Negative Response"];
+                highlightedData.innerHTML += result["Positive Response"];
+            })
+            .catch(error => console.log('error', error));
+
         });
     
         saveButton.addEventListener('click', function() {

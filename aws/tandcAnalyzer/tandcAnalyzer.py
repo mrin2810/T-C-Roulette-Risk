@@ -11,7 +11,7 @@ import random
 import openai
 # from keybert import KeyBERT
 random.seed(42)
-openai.api_key = "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"
+# openai.api_key = "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"
 
 
 def openai_prompt(prompt, tok, used_for, bo, use):

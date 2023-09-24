@@ -8,5 +8,8 @@
 
 ![csh (3)](https://github.com/mrin2810/CSH-Hackathon-Project/assets/30904462/fab61021-b15b-480e-9b9d-03e91cbe436b)
 
-![csh (4)](https://github.com/mrin2810/CSH-Hackathon-Project/assets/30904462/46bd824a-7e75-4ac4-b495-9b032a28332e)
+> Compared two different AI models - the turbo 16k and the turbo 16k-6310
+> The turbo-16k-6310 fares better consistently in terms of word quality
+> Tested on terms and conditions for 20 companies
+
 ![csh (5)](https://github.com/mrin2810/CSH-Hackathon-Project/assets/30904462/3925e64d-735c-48d3-8102-880e16c300ce)

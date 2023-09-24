@@ -91,3 +91,22 @@ body {
     padding: 10px;
     background-color: #f9f9f9;
 }
+
+
+.negative-comment {
+  color: rgb(231, 76, 76);
+  background-color: rgb(238, 208, 208);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+
+.positive-comment {
+  color: rgb(96, 220, 96);
+  background-color: rgb(192, 242, 192);
+  font-weight: bold;
+  padding:10px;
+  border-radius: 2px;
+}
+

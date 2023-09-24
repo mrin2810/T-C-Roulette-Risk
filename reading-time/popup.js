@@ -114,9 +114,20 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .then((result) => {
                 result = JSON.parse(result.body);
-                highlightedData.innerHTML = result["Negative Response"];
-                highlightedData.innerHTML += result["Positive Response"];
-                loader.style.display = "none";                
+                const negativePoints = result["Negative Response"].split('\n-');
+                let formattedNegative = 'Suspicious Comments: \n\n';
+                for(let i = 1; i < negativePoints.length; i++) {
+                    formattedNegative += `<div class="negative-comment"> ${i}: ${negativePoints[i]}</div>`;
+                }
+                
+                const positivePoints = result["Positive Response"].split('\n-');
+                let formattedPositive = 'Positive Comments: \n\n';
+                for(let i = 1; i < positivePoints.length; i++) {
+                    formattedPositive += `<div class="positive-comment">${i}: ${positivePoints[i]}</div>`;
+                }
+                
+                highlightedData.innerHTML = formattedNegative + formattedPositive;
+                 loader.style.display = "none";                
             })
             .catch(error => {
                 console.log('error', error)

@@ -91,12 +91,12 @@ body {
     padding: 10px;
     background-color: #f9f9f9;
 }
-<<<<<<< HEAD
 
 
 .negative-comment {
-  color: rgb(231, 76, 76);
-  background-color: rgb(238, 208, 208);
+  color: rgb(229, 80, 80);
+  background-color: rgb(241, 220, 220);
+  margin-top: 8px;
   font-weight: bold;
   padding: 10px;
   border-radius: 2px;
@@ -104,16 +104,15 @@ body {
 
 
 .positive-comment {
-  color: rgb(96, 220, 96);
-  background-color: rgb(192, 242, 192);
+  color: rgb(85, 178, 85);
+  background-color: rgb(228, 247, 228);
   font-weight: bold;
   padding:10px;
+  margin-top: 8px;
   border-radius: 2px;
 }
 
-=======
 ::placeholder {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
->>>>>>> refs/remotes/origin/main

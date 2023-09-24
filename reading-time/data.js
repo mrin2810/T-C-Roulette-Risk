@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Set the content of the header cells
             keyHeader.textContent = 'Label';
-            valueHeader.textContent = 'Summary';
+            valueHeader.textContent = 'Highlights';
             
             // Append header cells to the header row
             headerRow.appendChild(keyHeader);

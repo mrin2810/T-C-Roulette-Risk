@@ -91,13 +91,13 @@ document.addEventListener('DOMContentLoaded', function() {
         saveButton.addEventListener('click', function() {
             const companyName = document.querySelector('#company-name').value;
             var highlightedData = "";
-            negativePoints[0] = "Suspicius Points: ";
-            positivePoints[0] = "Positive Points: ";
+            negativePoints[0] = "Suspicius Points: \n";
+            positivePoints[0] = "Positive Points: \n";
             for (let point of negativePoints) {
-                highlightedData += "\\n" + point;
+                highlightedData += point;
             }
             for (let point of positivePoints) {
-                highlightedData += "\\n" + point;
+                highlightedData += point;
             }
             data[companyName] = highlightedData;
             chrome.storage.sync.set({"data": data}, function() {

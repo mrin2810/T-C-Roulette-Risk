@@ -25,10 +25,10 @@ document.addEventListener('DOMContentLoaded', function() {
             // Append the header row to the table
             table.appendChild(headerRow);
 
-            // Iterate over the summaryData object
-            for (const key in summaryData) {
-                if (summaryData.hasOwnProperty(key)) {
-                const value = summaryData[key];
+            // Iterate over the highlightedData object
+            for (const key in highlightedData) {
+                if (highlightedData.hasOwnProperty(key)) {
+                const value = highlightedData[key];
 
                 // Create a table row
                 const row = document.createElement('tr');

@@ -6,6 +6,8 @@ const currentDate = new Date().toISOString().slice(0, 10);
 console.log(currentDate); // output: 2023-04-06
 
 document.addEventListener('DOMContentLoaded', function() {
+    var negativePoints = "";
+    var positivePoints = "";
     chrome.storage.sync.get(["data"], (result) => {
         const data = result["data"] || {};
         document.getElementById('history').addEventListener('click', function() {
@@ -59,13 +61,13 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .then((result) => {
                 result = JSON.parse(result.body);
-                const negativePoints = result["Negative Response"].split('\n-');
+                negativePoints = result["Negative Response"].split('\n-');
                 let formattedNegative = '<h4>Suspicious Comments:</h4> \n\n';
                 for(let i = 1; i < negativePoints.length; i++) {
                     formattedNegative += `<div class="negative-comment"> ${i}: ${negativePoints[i]}</div>`;
                 }
                 
-                const positivePoints = result["Positive Response"].split('\n-');
+                positivePoints = result["Positive Response"].split('\n-');
                 let formattedPositive = '<h4>Positive Comments:</h4>\n\n';
                 for(let i = 1; i < positivePoints.length; i++) {
                     formattedPositive += `<div class="positive-comment">${i}: ${positivePoints[i]}</div>`;
@@ -88,7 +90,15 @@ document.addEventListener('DOMContentLoaded', function() {
     
         saveButton.addEventListener('click', function() {
             const companyName = document.querySelector('#company-name').value;
-            const highlightedData = document.getElementById('highlighted-data').innerHTML;
+            var highlightedData = "";
+            negativePoints[0] = "Suspicius Points: ";
+            positivePoints[0] = "Positive Points: ";
+            for (let point of negativePoints) {
+                highlightedData += "\\n" + point;
+            }
+            for (let point of positivePoints) {
+                highlightedData += "\\n" + point;
+            }
             data[companyName] = highlightedData;
             chrome.storage.sync.set({"data": data}, function() {
                 console.log("Data Saved");

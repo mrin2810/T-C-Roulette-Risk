@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>T&C Roulette Popup</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="popup.js"></script>
+</head>
+<body>
+    <main role="main">
+    <div role="form" class="container">
+        <label class="label" for="company-name">Company Name:</label>
+        <input placeholder="Company Name" name="company-name" type="text" id="company-name" aria-label="Title of the summary"/>
+        <br/>
+        <label class="label" for="summary">Data to summarize:</label>
+        <textarea name="summary" rows="4" cols="50" placeholder="T&C text" id="summary" aria-label="Data to summarize"></textarea>
+    <div class="btn-container">
+        <button id="highlights">Find Highlights</button>
+    </div>
+    <div id="highlighted-data" role="status" aria-live="polite"></div>
+    <div class="btn-container">
+        <div class="btn-2">
+            <button id="save">Save</button>
+            <button id="history">See History</button>
+        </div>
+    </div>
+    </div>
+</main>
+</body>
+</html>

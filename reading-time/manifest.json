@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "T&C Roulette",
+  "version": "1.0",
+  "description": "Highlight important points from T&C",
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+
+  "action": {
+    "default_icon": "images/icon-16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["data.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

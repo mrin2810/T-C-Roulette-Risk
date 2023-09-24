@@ -132,8 +132,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
         saveButton.addEventListener('click', function() {
             const companyName = document.querySelector('#company-name').value;
-            const summaryData = document.querySelector('#summary').value;
-            data[companyName] = summaryData;
+            const highlightedData = document.getElementById('highlighted-data').innerHTML;
+            data[companyName] = highlightedData;
             chrome.storage.sync.set({"data": data}, function() {
                 console.log("Data Saved");
             });

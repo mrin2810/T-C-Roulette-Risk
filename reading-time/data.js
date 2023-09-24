@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Example:
     const dataContainer = document.getElementById('dataContainer');
     chrome.storage.sync.get(["data"], function(result) {
-        const summaryData = result["data"];
-        if (summaryData) {
+        const highlightedData = result["data"];
+        if (highlightedData) {
             // Create a table element
             const table = document.createElement('table');
             table.classList.add('history-table');
@@ -56,10 +56,5 @@ document.addEventListener('DOMContentLoaded', function() {
             dataContainer.innerHTML = 'Your collected data goes here';
         }
       });
-    // chrome.storage.local.get(['userData'], function(result) {
-    //     const savedData = result.userData;
-    //     console.log('Retrieved data:', savedData);
-    //     dataContainer.innerHTML = savedData
-    //   }); 
   });
   

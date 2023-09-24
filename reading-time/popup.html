@@ -13,13 +13,16 @@
         <br/>
         <label class="label" for="summary">Data to summarize:</label>
         <textarea name="summary" rows="4" cols="50" placeholder="T&C text" id="summary" aria-label="Data to summarize"></textarea>
+        <div id="error-message" style="color: red; display: none;">Please enter both Company Name and Summary.</div>
     <div class="btn-container">
-        <button id="highlights">Find Highlights</button>
+        <button id="highlights" disabled>Find Highlights</button>
     </div>
-    <div id="highlighted-data">Test</div>
+    <div id="loader"></div>
+    <div id="highlighted-data" class="highlighted-data"></div>
+   
     <div class="btn-container">
         <div class="btn-2">
-            <button id="save">Save</button>
+            <button id="save" disabled>Save</button>
             <button id="history">See History</button>
         </div>
     </div>

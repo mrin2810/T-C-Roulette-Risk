@@ -69,13 +69,36 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const summaryButton = document.getElementById('highlights');
         const saveButton = document.getElementById('save');
-    
+        const highlightedData = document.querySelector("#highlighted-data");
+        const loader = document.querySelector("#loader");
+        
+        const summaryData = document.querySelector('#summary');
+        const companyName = document.querySelector('#company-name');
+
+        const errorElement = document.querySelector("#error-message");
+        function checkInputContent() {
+            if (summaryData.value.trim() !== '' && companyName.value.trim() !== '') {
+                summaryButton.disabled = false;
+                saveButton.disabled = false;
+                errorElement.style.display = 'none'; 
+            } else {
+                summaryButton.disabled = true;
+                saveButton.disabled = true;
+                errorElement.style.display = 'inline-block'; // Show error message
+            }
+        }        
+
+        // Add an event listener to the summary input to check content on input
+        summaryData.addEventListener('input', checkInputContent);
+        companyName.addEventListener('input', checkInputContent);
+
         summaryButton.addEventListener('click', function() {
-            const highlightedData = document.querySelector("#highlighted-data");
-            const summaryData = document.querySelector('#summary').value;
+            if (summaryData.value.trim() !== '' && companyName.value.trim() !== '') {
+                console.log('s')
+            loader.style.display = 'block';
 
             var raw = JSON.stringify({
-            "page_data": summaryData
+            "page_data": summaryData.value
             });
 
             var requestOptions = {
@@ -83,7 +106,6 @@ document.addEventListener('DOMContentLoaded', function() {
             headers: myHeaders,
             body: raw,
             redirect: 'follow',
-            //  mode: 'no-cors'
             };
 
             fetch("https://uxb6df64xcgfe7d754aw5k5lyu0giion.lambda-url.us-east-1.on.aws", requestOptions)
@@ -94,9 +116,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 result = JSON.parse(result.body);
                 highlightedData.innerHTML = result["Negative Response"];
                 highlightedData.innerHTML += result["Positive Response"];
+                loader.style.display = "none";                
             })
-            .catch(error => console.log('error', error));
+            .catch(error => {
+                console.log('error', error)
+                loader.style.display = "none";
+            });
+        }
+        else
+        {
+            errorElement.style.display = 'inline-block'; // Show error message
 
+        }
         });
     
         saveButton.addEventListener('click', function() {

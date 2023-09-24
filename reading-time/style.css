@@ -29,8 +29,8 @@ body {
     border-radius: 4px;
   }
   
-  #summary:hover, #save:hover, #viewAll:hover {
-    background-color: #45a049;
+  #summary:hover, #company-name:hover {
+    background-color: rgba(176, 255, 171, 0.3);
   }
   
   input {
@@ -57,4 +57,37 @@ body {
     margin: 10px;
     font-size: 16px;
   }
+  #error-message{
+    margin-left: 10px;
+    background-color: rgb(244, 216, 216);
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #loader {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin-top: -15px;
+    margin-left: -15px;
+    margin: 10px;
+  }
   
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  #loader {
+    display: none;
+  }
+ 
+  .highlighted-data {
+    /* Add your desired styles here */
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
